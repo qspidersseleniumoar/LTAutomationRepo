@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[step 1]]>
+    </line>
+    <line>
+      <![CDATA[step 2]]>
+    </line>
+    <line>
+      <![CDATA[step 3]]>
+    </line>
+    <line>
+      <![CDATA[step 4]]>
+    </line>
+    <line>
+      <![CDATA[step 5]]>
+    </line>
+    <line>
+      <![CDATA[=====================================]]>
+    </line>
+    <line>
+      <![CDATA[step 1]]>
+    </line>
+    <line>
+      <![CDATA[step 2]]>
+    </line>
+    <line>
+      <![CDATA[step 3]]>
+    </line>
+    <line>
+      <![CDATA[step 4]]>
+    </line>
+    <line>
+      <![CDATA[step 5]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="53743" started-at="2019-02-20T08:26:12Z" finished-at="2019-02-20T08:27:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="53743" started-at="2019-02-20T08:26:12Z" finished-at="2019-02-20T08:27:05Z">
+      <class name="com.testng.icore.homePageTest.AssertSampleTest">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.testng.icore.homePageTest.AssertSampleTest@5cb9f472]" name="configBC" is-config="true" duration-ms="16778" started-at="2019-02-20T08:26:12Z" finished-at="2019-02-20T08:26:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.testng.icore.homePageTest.AssertSampleTest@5cb9f472]" name="configBM" is-config="true" duration-ms="10670" started-at="2019-02-20T08:26:29Z" finished-at="2019-02-20T08:26:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="FAIL" signature="verifyHomePage()[pri:0, instance:com.testng.icore.homePageTest.AssertSampleTest@5cb9f472]" name="verifyHomePage" duration-ms="32" started-at="2019-02-20T08:26:39Z" finished-at="2019-02-20T08:26:39Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [HDF] but found [HDFC],
+expected [] but found [9880]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [HDF] but found [HDFC],
+expected [] but found [9880]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at com.testng.icore.homePageTest.AssertSampleTest.verifyHomePage(AssertSampleTest.java:27)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[step 1]]>
+            </line>
+            <line>
+              <![CDATA[step 2]]>
+            </line>
+            <line>
+              <![CDATA[step 3]]>
+            </line>
+            <line>
+              <![CDATA[step 4]]>
+            </line>
+            <line>
+              <![CDATA[step 5]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.testng.icore.homePageTest.AssertSampleTest@5cb9f472]" name="configAM" is-config="true" duration-ms="12568" started-at="2019-02-20T08:26:39Z" finished-at="2019-02-20T08:26:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.testng.icore.homePageTest.AssertSampleTest@5cb9f472]" name="configBM" is-config="true" duration-ms="4915" started-at="2019-02-20T08:26:52Z" finished-at="2019-02-20T08:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="verifyLogo()[pri:0, instance:com.testng.icore.homePageTest.AssertSampleTest@5cb9f472]" name="verifyLogo" duration-ms="9" started-at="2019-02-20T08:26:57Z" finished-at="2019-02-20T08:26:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====================================]]>
+            </line>
+            <line>
+              <![CDATA[step 1]]>
+            </line>
+            <line>
+              <![CDATA[step 2]]>
+            </line>
+            <line>
+              <![CDATA[step 3]]>
+            </line>
+            <line>
+              <![CDATA[step 4]]>
+            </line>
+            <line>
+              <![CDATA[step 5]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogo -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.testng.icore.homePageTest.AssertSampleTest@5cb9f472]" name="configAM" is-config="true" duration-ms="7033" started-at="2019-02-20T08:26:57Z" finished-at="2019-02-20T08:27:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.testng.icore.homePageTest.AssertSampleTest@5cb9f472]" name="configAC" is-config="true" duration-ms="1619" started-at="2019-02-20T08:27:04Z" finished-at="2019-02-20T08:27:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.testng.icore.homePageTest.AssertSampleTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
