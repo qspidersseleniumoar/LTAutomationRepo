@@ -21,6 +21,18 @@ public class USerTest {
 
 	}
 	
+	@Test
+	public  void delete2usertest() {
+		System.out.println("execute delete2usertest");
+
+	}
+	
+	@Test
+	public  void delete4usertest() {
+		System.out.println("execute delete4usertest");
+
+	}
+	
 	
 	@Test
 	public  void searchusertest() {
